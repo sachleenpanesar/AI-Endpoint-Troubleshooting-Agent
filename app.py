@@ -5,7 +5,7 @@ from prompts import SYSTEM_PROMPT
 
 # Gemini Client
 client = genai.Client(
-    api_key="AQ.Ab8RN6KImqy6tnk6AAuHGxrKs-dMiB0V7_ztc9XnvimU4MZhGA"
+    api_key=st.secrets["GEMINI_API_KEY"]
 )
 
 # Sidebar
