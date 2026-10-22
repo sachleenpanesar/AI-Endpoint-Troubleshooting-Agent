@@ -189,7 +189,7 @@ Issue:
         progress.progress(50)
 
         response = client.models.generate_content(
-            model="Gemini-3.8-Live-Extended-Thinking",
+            model="gemini-3.8-live-extended-thinking",
             contents=full_prompt
         )
 
